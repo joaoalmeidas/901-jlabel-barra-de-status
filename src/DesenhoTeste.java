@@ -1,4 +1,5 @@
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 
 public class DesenhoTeste {
 
@@ -7,6 +8,7 @@ public class DesenhoTeste {
 		
 		DesenhoPanel panel = new DesenhoPanel();
 		JFrame app = new JFrame();
+		JLabel status = new JLabel(panel.retornaStatus());
 		
 		
 		app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
