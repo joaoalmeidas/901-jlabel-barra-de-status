@@ -123,7 +123,7 @@ public class DesenhoPanel extends JPanel{
 	
 	public String retornaStatus() {
 		
-		return String.format("Linhas: %d, Circunferências: %d, Retângulos: %d", getLinhas().length, getRetangulos().length, getCircunferencias().length);
+		return String.format("Linhas: %d, Circunferências: %d, Retângulos: %d", getLinhas().length, getCircunferencias().length, getRetangulos().length);
 		
 	}
 	
