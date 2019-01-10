@@ -121,6 +121,10 @@ public class DesenhoPanel extends JPanel{
 		this.circunferencias = circunferencias;
 	}
 	
-	
+	public String retornaStatus() {
+		
+		return String.format("Linhas: %d, Circunferências: %d, Retângulos: %d", getLinhas().length, getRetangulos().length, getCircunferencias().length);
+		
+	}
 	
 }
