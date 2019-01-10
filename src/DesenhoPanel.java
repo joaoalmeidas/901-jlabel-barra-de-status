@@ -88,5 +88,39 @@ public class DesenhoPanel extends JPanel{
 		}
 		
 	}
+
+	public SecureRandom getAleatorio() {
+		return aleatorio;
+	}
+
+	public void setAleatorio(SecureRandom aleatorio) {
+		this.aleatorio = aleatorio;
+	}
+
+	public MinhaLinha[] getLinhas() {
+		return linhas;
+	}
+
+	public void setLinhas(MinhaLinha[] linhas) {
+		this.linhas = linhas;
+	}
+
+	public MeuRetangulo[] getRetangulos() {
+		return retangulos;
+	}
+
+	public void setRetangulos(MeuRetangulo[] retangulos) {
+		this.retangulos = retangulos;
+	}
+
+	public MinhaCircunferencia[] getCircunferencias() {
+		return circunferencias;
+	}
+
+	public void setCircunferencias(MinhaCircunferencia[] circunferencias) {
+		this.circunferencias = circunferencias;
+	}
+	
+	
 	
 }
